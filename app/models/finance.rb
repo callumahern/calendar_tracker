@@ -1,3 +1,3 @@
 class Finance < ApplicationRecord
-
+  
 end
