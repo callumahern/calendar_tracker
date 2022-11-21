@@ -18,6 +18,11 @@
     <%= date.day %>
   </div>
   <% entries.each do |entry| %>
-    <%= entry.title %>
+    <div class="card-header">
+      <div class="card-title">
+        <%= entry.class %>:
+        <%= entry.title %>
+      </div>
+    </div>
   <% end %>
 <% end %>
