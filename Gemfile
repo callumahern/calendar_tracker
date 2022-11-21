@@ -25,6 +25,11 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 gem "bootsnap", require: false
 
+gem "simple_calendar", "~> 2.4"
+gem 'sassc-rails'
+gem 'bootstrap', '~> 5.2.0'
+
+
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end

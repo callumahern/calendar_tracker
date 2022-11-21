@@ -12,4 +12,12 @@
  *
  *= require_tree .
  *= require_self
+ *= require simple_calendar
  */
+
+ @import "bootstrap";
+
+ .smallme {
+  width: 300px;
+  position: absolute;
+}
