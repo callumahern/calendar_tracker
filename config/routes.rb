@@ -3,6 +3,6 @@
 Rails.application.routes.draw do
   root 'home#homepage'
   
-  get 'new', to: 'mood#new'
-  post 'new', to: 'mood#create'
+  get 'mood/new', to: 'mood#new'
+  post 'mood/new', to: 'mood#create'
 end
