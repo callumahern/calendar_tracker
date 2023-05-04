@@ -13,6 +13,8 @@ gem 'sqlite3', '~> 1.4'
 
 gem 'puma', '~> 5.0'
 
+gem 'jquery-rails'
+
 gem 'importmap-rails'
 
 gem 'turbo-rails'
