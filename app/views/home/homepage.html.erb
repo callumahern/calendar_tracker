@@ -11,11 +11,12 @@
     <%= date.day %>
   </div>
   <% entries.each do |entry| %>
-    <div class="card-header">
-      <div class="card-title">
-        <%= entry.class %>:
-        <%= entry.title %>
+     <%# #something that will filter models by select %>
+      <div class="card-header">
+        <div class="card-title">
+          <%= entry.class %>:
+          <%= entry.title %>
+        </div>
       </div>
-    </div>
   <% end %>
 <% end %>
