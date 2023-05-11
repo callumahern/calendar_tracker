@@ -8,7 +8,7 @@ class FoodController < ApplicationController
     if @food.save
       redirect_to root_path
     else
-      'hello'
+      puts 'hello'
     end
   end
 

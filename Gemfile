@@ -15,6 +15,9 @@ gem 'puma', '~> 5.0'
 
 gem 'jquery-rails'
 
+gem 'pry', '~> 0.13.1'
+
+
 gem 'importmap-rails'
 
 gem 'turbo-rails'
